@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="style.css" />
         <title>Eat Good Hoe</title>
     </head>
     <body>
-        <header>
-            <h1>EAT GOOD HOE</h1>
-            <nav>
+        <header class="main-header">
+            <nav class="nav main-nav">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
@@ -14,36 +14,44 @@
                     <li><a href="store.html">STORE</a></li>
                 </ul>
             </nav>
+            <h1 class="brand-name brand-name-large">EAT GOOD HOE</h1>
         </header>
-        <section>
-            <h2>NEWS</h2>
+        <section class="content-section container">
+            <h2 class="section-header">LATEST POSTS</h2>
+            <div class="home-first-posts">
+                <div>
+                    <img class="home-large-image" src="images/latest1.jpg">
+                </div>
+                <div class="home-first-cols">
+                    <div>
+                        <img class="home-medium-image" src="images/latest2.jpg">
+                    </div>
+                    <div>
+                        <img class="home-medium-image" src="images/latest3.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="content-section container">
+            <h2 class="section-header">NEWS</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent luctus nibh sapien, non tempus metus viverra commodo. Donec viverra augue sed tellus rhoncus dapibus eget eget odio. Nulla malesuada pharetra velit, et cursus enim cursus sed. Ut accumsan arcu at velit sagittis luctus. In eros justo, accumsan at ligula a, luctus condimentum nulla. Vivamus non felis fringilla, molestie mi in, vulputate nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at diam sed diam faucibus dignissim ac ut eros. Donec imperdiet blandit orci, quis malesuada odio. Aenean aliquet condimentum ultrices. Quisque imperdiet at mauris vel condimentum. Fusce interdum mattis diam, congue convallis erat ultricies nec.</p>
 
             <p>Etiam consectetur venenatis lectus, at sollicitudin ex condimentum at. Donec lobortis sapien eget dapibus fermentum. Phasellus massa est, porta sed ultricies ac, suscipit non sapien. Ut volutpat mi ac quam viverra, vel pellentesque velit fermentum. Sed pretium, urna tempus auctor pretium, turpis ligula sollicitudin dui, ut ultricies lorem turpis eget lacus. Aenean efficitur fringilla placerat. Cras varius tristique quam, ut sodales orci posuere at.</p>
         </section>
-        <section>
-            <h2>LATEST POSTS</h2>
-            <div>
-                <img src="images/latest1.jpg">
-            </div>
-            <div>
-                <img src="images/latest2.jpg">
-            </div>
-            <div>
-                <img src="images/latest3.jpg">
-            </div>
-        </section>
-        <footer>
-            <h2>EAT GOOD HOE</h2>
-            <ul>
-                <ul>
-                    <li>
-                        <a href="https://instagram.com/eatgoodhoe" target="_blank">
-                            <img src="images/instagram.jpg">
-                        </a>
-                    </li>
+        
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="brand-name">EAT GOOD HOE</h2>
+                <ul class="nav footer-nav">
+                    <ul>
+                        <li>
+                            <a href="https://instagram.com/eatgoodhoe" target="_blank">
+                                <img class="footer-icon" src="images/instagram.png">
+                            </a>
+                        </li>
+                    </ul>
                 </ul>
-            </ul>
+            </div>
         </footer>
     </body>
 </html>    

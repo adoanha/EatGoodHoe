@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Permanent+Marker&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Amatic SC", cursive;
+    color: #777;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav ul {
+    margin: 0px;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 2px solid rgba(255, 255, 255, .3)
+}
+
+.main-nav li {
+    padding: 0px 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(225, 255, 255, .3);
+}
+
+.main-header {
+    background-color: rgba(0,0,0,.6);
+    background-image: url("images/header_bg.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.brand-name {
+    text-align: center;
+    margin: 0px;
+    font-size: 4em;
+    font-family: "Dancing Script", cursive;
+    font-weight: normal;
+    color: white;
+}
+
+.brand-name-large {
+    font-size: 5em;
+}
+
+.content-section {
+    margin: 1em;
+    font-size: 28px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 1.5em;
+}
+
+.section-header {
+    font-family: "Permanent Marker", cursive;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-person-image-left {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.about-person-image-right {
+    float: right;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.about-blurb {
+    margin: 20px 0px;
+}
+
+.about-blurb-right {
+    text-align: right;
+}
+
+.main-footer {
+    background-color: #56CCF2;
+    color: white;
+    padding: .25em 0px;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.footer-nav li {
+    padding: 0px .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.home-first-posts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.home-first-cols {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-large-image {
+    height: 600px;
+    width: 800px;
+}
+
+.home-medium-image {
+    height: 300px;
+    width: 350px;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #2D9CDB;
+}
+

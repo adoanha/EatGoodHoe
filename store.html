@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="style.css" />
         <title>Eat Good Hoe</title>
     </head>
     <body>
-        <header>
-            <h1>EAT GOOD HOE</h1>
-            <nav>
+        <header class="main-header">
+            <nav class="nav main-nav">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
@@ -14,17 +14,16 @@
                     <li><a href="store.html">STORE</a></li>
                 </ul>
             </nav>
+            <h1 class="brand-name brand-name-large">EAT GOOD HOE</h1>
         </header>
-        <section>
-            <h2>MERCH</h2>
-            <div>
-                <div>
-                    <strong>Item 1</strong>
-                </div>
-                <img src="images/placeholder.png">
-                <div>
-                    <span>$14.99</span>
-                    <button role="button">ADD TO CART</button>
+        <section class="container content-section">
+            <h2 class="section-header">MERCH</h2>
+            <div class="shop-item">
+                <span class="shop-item-title">Item 1</span>
+                <img class="shop-item-image" src="images/placeholder.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$14.99</span>
+                    <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
                 </div>
             </div>
             <div>
@@ -94,15 +93,19 @@
                 <button role="button">PURCHASE</button>
             </div>
         </section>
-        <footer>
-            <h2>EAT GOOD HOE</h2>
-            <ul>
-                <li>
-                    <a href="https://instagram.com/eatgoodhoe" target="_blank">
-                        <img src="images/instagram.jpg">
-                    </a>
-                </li>
-            </ul>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="brand-name">EAT GOOD HOE</h2>
+                <ul class="nav footer-nav">
+                    <ul>
+                        <li>
+                            <a href="https://instagram.com/eatgoodhoe" target="_blank">
+                                <img class="footer-icon" src="images/instagram.png">
+                            </a>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
         </footer>
     </body>
 </html>    
